@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My trip to Seoul | Adriana Năstase</title>
+		<style>
+			body {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f8f8f8;
+				color: #333;
+			}
+
+			header {
+				background-color: #673ab7;
+				color: #fff;
+				text-align: center;
+				padding: 20px;
+			}
+
+			header h1 {
+				margin: 0;
+				font-size: 36px;
+			}
+
+			header p {
+				margin: 5px 0 0;
+				font-size: 20px;
+			}
+
+			.hero-image {
+				height: 300px;
+				overflow: hidden;
+			}
+
+			.hero-image img {
+				width: 100%;
+				object-fit: cover;
+				margin-top: -45px;
+			}
+
+			.main-content {
+				padding: 20px;
+				background-color: #fff;
+				border-radius: 10px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				margin: 20px auto;
+				max-width: 800px;
+			}
+
+			h2 {
+				color: #673ab7;
+			}
+
+			p {
+				line-height: 1.6;
+			}
+
+			.trip-summary {
+				margin-top: 20px;
+				overflow: hidden;
+			}
+
+			.trip-summary img {
+				width: 100%;
+			}
+
+			.trip-summary div {
+				float: left;
+				width: 48%;
+				margin-right: 4%;
+				margin-bottom: 20px;
+			}
+
+			.trip-summary div:last-child {
+				margin-right: 0;
+			}
+
+			.useful-links {
+				margin: 20px 0;
+			}
+
+			.useful-links h2 {
+				color: #673ab7;
+			}
+
+			.useful-links a {
+				color: #673ab7;
+				text-decoration: none;
+				display: block;
+				margin-bottom: 5px;
+				transition: color 0.3s;
+			}
+
+			.useful-links a:hover {
+				color: #ff4081;
+			}
+
+			.itinerary {
+				background-color: #f090c6;
+				color: #fff;
+				padding: 20px;
+				margin: 20px 0;
+				border-radius: 10px;
+			}
+
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 10px;
+				color: #fff;
+			}
+
+			th,
+			td {
+				padding: 10px;
+				text-align: left;
+				border-bottom: 1px solid #fff;
+			}
+
+			th {
+				background-color: #673ab7;
+			}
+
+			.photo-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+				gap: 10px;
+			}
+
+			.photo-item {
+				position: relative;
+				overflow: hidden;
+				border-radius: 10px;
+			}
+
+			.photo-item img {
+				width: 100%;
+				height: auto;
+				display: block;
+				border-radius: 10px;
+				transition: transform 0.3s ease-in-out;
+			}
+
+			.photo-item:hover img {
+				transform: scale(1.1);
+			}
+
+			.contact-form {
+				text-align: center;
+				margin: 20px 0;
+			}
+
+			input,
+			button {
+				padding: 10px;
+				margin-bottom: 10px;
+				border: none;
+				border-radius: 5px;
+			}
+
+			button {
+				background-color: #f090c6;
+				color: #fff;
+				cursor: pointer;
+				transition: background-color 0.3s;
+			}
+
+			button:hover {
+				background-color: #673ab7;
+			}
+
+			footer {
+				background-color: #673ab7;
+				color: #fff;
+				text-align: center;
+				padding: 10px 0;
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>My trip to Seoul | Adriana Năstase</h1>
+		</header>
+
+		<div class="hero-image">
+			<img
+				src="https://media.istockphoto.com/id/1137568153/sv/foto/cherry-blommar-på-våren-seoul-i-korea.jpg?s=170667a&w=0&k=20&c=m-0m0nqUnk8HnDZMhDC0u-y7Ax8C8MF3WVWsG9pFLTE="
+				alt="Seoul"
+			/>
+		</div>
+
+		<div class="main-content">
+			<section
+				class="trip-summary"
+				style="display: flex; align-items: flex-start"
+			>
+				<div style="width: 48%">
+					<h2>My trip to Seoul</h2>
+					<p>
+						To summarize the experience, I would generally say that
+						I was extremely impressed with Seoul. Wherever I went, I
+						saw beautiful happy people enjoying their lives in a
+						highly cultural and tourist-friendly city.
+					</p>
+					<center>
+						→
+						<a href="#itinerary" class="useful-links"
+							>Explore Seoul with me</a
+						>
+						←
+					</center>
+				</div>
+				<div
+					class="image-container"
+					style="width: 48%; margin-left: 4%"
+				>
+					<img
+						src="https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2023/02/The_Luxury_Lowdown_Seoul_Hanbok_Rental_28.jpg?resize=1080%2C1620&ssl=1"
+						alt="Hanbok Rental"
+						style="width: 75%; border-radius: 10px"
+					/>
+				</div>
+			</section>
+			<br />
+			<h2 align="center">My photo album</h2>
+			<section class="photo-album">
+				<div class="photo-grid">
+					<div class="photo-item">
+						<img
+							src="https://www.iesabroad.org/sites/default/files/2023-07/cherry-blossom-spring-seoul-south-korea.jpg"
+							alt="Seoul Cherry Blossom"
+						/>
+					</div>
+					<div class="photo-item">
+						<img
+							src="https://www.nzherald.co.nz/resizer/G4zcioLxIE0cFSHqGuxC8xZ8-xM=/1200x675/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/MDCSQTRNMNJMKP5FTHC2ZBPQY4.jpg"
+							alt="Seoul City"
+						/>
+					</div>
+					<div class="photo-item">
+						<img
+							src="https://luxuryescapes.com/inspiration/wp-content/uploads/2023/06/shutterstock_1995760526-e1684993797339.jpg"
+							alt="Seoul Night"
+						/>
+					</div>
+					<div class="photo-item">
+						<img
+							src="https://media.istockphoto.com/id/924402818/photo/gyeongbokgung-palace-with-cherry-blossom-tree-in-spring-time-in-seoul-city-of-korea-south-korea.jpg?s=612x612&w=0&k=20&c=Z5UEEqUkudBQWoeue9mQ1DbjQUDAOziusv9w9EdcyNw="
+							alt="Gyeongbokgung Palace"
+						/>
+					</div>
+					<div class="photo-item">
+						<img
+							src="https://www.tripsavvy.com/thmb/GfWrSnFzLSKWssIG8Siz5J8uE9I=/2120x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1161586643-4cc339c92e994ba69f7dbe9383cb45c4.jpg"
+							alt="Seoul Night View"
+						/>
+					</div>
+					<div class="photo-item">
+						<img
+							src="https://www.koreatravelpost.com/wp-content/uploads/2020/04/japanese-cherry-trees-3063992_1280.jpg"
+							alt="Cherry Trees"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section class="useful-links" align="center">
+				<h2>Useful links:</h2>
+				<a
+					href="http://eng.cosmojin.com/?gad_source=1&gclid=CjwKCAiA5L2tBhBTEiwAdSxJX9HDkKU81hAU-TvTZYPNJIVly7KvpSYm2EaGOqWOA-sXgzStNzBEMBoCxl4QAvD_BwE"
+					target="_blank"
+					>All about Korea - The Best Way to Travel</a
+				>
+				<a
+					href="https://www.getyourguide.com/-l197/?cmp=ga&cq_src=google_ads&cq_cmp=15511522799&cq_con=132158661578&cq_term=seoul%20tourist%20information&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15511522799&adgroup_id=132158661578&target_id=kwd-4547431277&loc_physical_ms=1011795&match_type=e&ad_id=628328016626&keyword=seoul%20tourist%20information&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gad_source=1&gclid=CjwKCAiA5L2tBhBTEiwAdSxJX1WG-wXmR3jXoNUMiUWkY5yTofM6gqgxQbT36CufJ8sZdX_d9qJlcxoCKowQAvD_BwE"
+					target="_blank"
+					>Seoul Tourist Information</a
+				>
+			</section>
+
+			<section class="itinerary" id="itinerary">
+				<h2 align="center" style="color: white">My itinerary</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Location</th>
+							<th>Directions</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>November 15th, Day 1</td>
+							<td>Incheon International Airport</td>
+							<td>Fly by airplane</td>
+							<td>
+								Important to check-in to your flight in advance
+							</td>
+						</tr>
+						<tr>
+							<td>November 16th, Day 2</td>
+							<td>Seoul Museum of Art</td>
+							<td>Subway to Seosomun-dong 37</td>
+							<td>Buy tickets online to save time and money</td>
+						</tr>
+						<tr>
+							<td>November 17th, Day 3</td>
+							<td>
+								Gyeongbokgung Palace and the Bukchon Hanok
+								Village
+							</td>
+							<td>Walking tour in Seoul with a guide</td>
+							<td>
+								Tour with a Hanbok and enjoy some tasty snacks
+								along the way
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section class="contact-form">
+				<h2>Contact for any questions</h2>
+				<form
+					action="mailto:info@test.com"
+					method="post"
+					enctype="text/plain"
+				>
+					<input
+						type="text"
+						name="subject"
+						placeholder="E-mail"
+						required
+					/>
+					<button type="submit">Submit</button>
+				</form>
+			</section>
+		</div>
+		<footer><sup>©</sup><i>Adriana Năstase, 2024</i></footer>
+	</body>
+</html>
